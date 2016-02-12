@@ -1,8 +1,12 @@
 #content-2 {
   background: #586775;
   
-  h2.title {
-    color: white;
+  .title-container {
+    text-align: center;
+    
+    h2.title {
+      color: white;
+    }
   }
   
   p {

@@ -1,0 +1,7 @@
+#about-section {
+  text-align: center;
+  
+  img {
+    @include border-radius(180px);
+  }
+}
