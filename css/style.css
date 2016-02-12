@@ -33,8 +33,9 @@
   margin: 30px 0; }
 
 #banner {
-  background: #333;
-  padding: 20px 0; }
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/sample-image.png);
+  background-size: cover;
+  padding: 100px 0; }
 
 .banner-content {
   text-align: center;
@@ -55,7 +56,8 @@
   margin-bottom: 0; }
 
 #content-1 {
-  background: white; }
+  background: white;
+  padding: 30px 0px; }
   #content-1 .title-container {
     text-align: center; }
     #content-1 .title-container h2.title {
@@ -66,7 +68,8 @@
     margin-bottom: 20px; }
 
 #content-2 {
-  background: #586775; }
+  background: #586775;
+  padding: 30px 0px; }
   #content-2 .title-container {
     text-align: center; }
     #content-2 .title-container h2.title {
@@ -76,7 +79,8 @@
     font-weight: 300; }
 
 #content-3 {
-  background: #2C343B; }
+  background: #2C343B;
+  padding: 30px 0px; }
   #content-3 .title-container {
     text-align: center; }
     #content-3 .title-container h2.title {
