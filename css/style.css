@@ -32,7 +32,53 @@
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
   margin: 30px 0; }
 
+#banner {
+  background: #333;
+  padding: 20px 0; }
+
 .banner-content {
-  text-align: center; }
+  text-align: center;
+  color: white; }
+  .banner-content h1.banner-title {
+    font-weight: 300; }
+  .banner-content p.banner-subtitle {
+    font-size: 2.2rem; }
+  .banner-content a.btn {
+    background: #6f5499;
+    color: white;
+    font-weight: 300;
+    margin: 20px 10px; }
+    .banner-content a.btn:hover {
+      background: rgba(111, 84, 153, 0.8); }
+
+.navbar {
+  margin-bottom: 0; }
+
+#content-1 {
+  background: white; }
+  #content-1 .title-container {
+    text-align: center; }
+    #content-1 .title-container h2.title {
+      color: #333;
+      margin-bottom: 20px; }
+  #content-1 p {
+    padding: 5px;
+    margin-bottom: 20px; }
+
+#content-2 {
+  background: #586775; }
+  #content-2 h2.title {
+    color: white; }
+  #content-2 p {
+    color: white;
+    font-weight: 300; }
+
+#content-3 {
+  background: #2C343B; }
+  #content-3 h2.title {
+    color: white; }
+  #content-3 p {
+    color: white;
+    font-weight: 300; }
 
 /*# sourceMappingURL=style.css.map */
