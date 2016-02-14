@@ -1,9 +1,20 @@
-$primary-color: #333;
-$secondary-color: #009AC8;
-$light-blue: #A7D3D3;
-$dark-blue: #343F42;
+// - - - - - - - - - - Variables - - - - - - - - - //
 
+$white: #FFFFFF;
+$highlight: #7ac483;
+$grey_background: #f2f1f8;
+$grey_copy: #b9b7c6;
+$dark_grey: #3C3C3E;
 
+// - - - - - - - - - - Global Styles - - - - - - - - - //
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
 @mixin breakpoint($class) {
   @if $class == xs {
     @media (max-width: 767px AND screen) { @content; }

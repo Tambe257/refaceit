@@ -1,7 +1,7 @@
 #banner {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/sample-image.png);
   background-size: cover;
-  padding: 100px 0;
+  padding: 100px 0 150px 0;
 }
 
 .banner-content {
@@ -9,7 +9,8 @@
   color: white;
   
   h1.banner-title {
-    font-weight: 300;
+    font-size: 4rem;
+    font-weight: 500;
   }
   
   p.banner-subtitle {
@@ -18,13 +19,26 @@
   
   a.btn {
     background: rgb(111, 84, 153);
-    color: white;
-    font-weight: 300;
+    font-weight: 700;
+	color: $white;
+	text-decoration: none;
+	text-align: center;
     margin: 20px 10px;
+    border: none;
+    padding: .7rem 3.5rem;
+    @include border-radius(2rem);
     
     &:hover {
       background: rgba(111, 84, 153, 0.8);
     }
   }
   
+}
+
+.button {
+	border: none;
+	outline: none;
+	border-radius: 2rem;
+	
+	
 }

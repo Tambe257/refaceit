@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  -webkit-font-smoothing: antialiased; }
+
 .cf:before,
 .cf:after {
   content: " ";
@@ -35,47 +41,82 @@
 #banner {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/sample-image.png);
   background-size: cover;
-  padding: 100px 0; }
+  padding: 100px 0 150px 0; }
 
 .banner-content {
   text-align: center;
   color: white; }
   .banner-content h1.banner-title {
-    font-weight: 300; }
+    font-size: 4rem;
+    font-weight: 500; }
   .banner-content p.banner-subtitle {
     font-size: 2.2rem; }
   .banner-content a.btn {
     background: #6f5499;
-    color: white;
-    font-weight: 300;
-    margin: 20px 10px; }
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 10px;
+    border: none;
+    padding: .7rem 3.5rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    border-radius: 2rem; }
     .banner-content a.btn:hover {
       background: rgba(111, 84, 153, 0.8); }
+
+.button {
+  border: none;
+  outline: none;
+  border-radius: 2rem; }
 
 .navbar {
   margin-bottom: 0; }
 
 #content-1 {
-  background: white;
-  padding: 30px 0px; }
+  background: #3C3C3E;
+  padding: 2rem 0rem 6.5rem 0;
+  text-align: center; }
   #content-1 .title-container {
     text-align: center; }
-    #content-1 .title-container h2.title {
-      color: #333;
-      margin-bottom: 20px; }
-  #content-1 p {
-    padding: 5px;
-    margin-bottom: 20px; }
+  #content-1 .box-wrapper {
+    padding: 0 2%;
+    width: 31%;
+    float: left;
+    margin: -8rem 1% 0 1%; }
+  #content-1 .boxes {
+    background: #FFFFFF;
+    -webkit-border-radius: 0.35rem;
+    -moz-border-radius: 0.35rem;
+    -ms-border-radius: 0.35rem;
+    border-radius: 0.35rem;
+    padding: 3rem 2.5%;
+    text-align: center;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+    -moz-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
+    box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25); }
+    #content-1 .boxes p {
+      color: #3C3C3E;
+      padding: 5px;
+      margin-bottom: 20px;
+      font-weight: 400; }
+    #content-1 .boxes h2.title {
+      color: #3C3C3E;
+      margin-bottom: 20px;
+      font-weight: 700; }
 
 #content-2 {
-  background: #586775;
+  background: white;
   padding: 30px 0px; }
   #content-2 .title-container {
     text-align: center; }
     #content-2 .title-container h2.title {
-      color: white; }
+      color: #333; }
   #content-2 p {
-    color: white;
+    color: #333;
     font-weight: 300; }
 
 #content-3 {
