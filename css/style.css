@@ -41,7 +41,7 @@ body {
 #banner {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/sample-image.png);
   background-size: cover;
-  padding: 100px 0 150px 0; }
+  padding: 125px 0 175px 0; }
 
 .banner-content {
   text-align: center;
@@ -110,22 +110,24 @@ body {
 
 #content-2 {
   background: white;
-  padding: 30px 0px; }
+  padding: 60px 0px; }
   #content-2 .title-container {
     text-align: center; }
     #content-2 .title-container h2.title {
-      color: #333; }
+      color: #333;
+      margin: 0 0 30px 0; }
   #content-2 p {
     color: #333;
     font-weight: 300; }
 
 #content-3 {
   background: #2C343B;
-  padding: 30px 0px; }
+  padding: 60px 0px; }
   #content-3 .title-container {
     text-align: center; }
     #content-3 .title-container h2.title {
-      color: white; }
+      color: white;
+      margin: 0 0 30px 0; }
   #content-3 p {
     color: white;
     font-weight: 300; }
