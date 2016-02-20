@@ -1,0 +1,39 @@
+#contact {
+  background: $white;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  padding: 100px 0px;
+  
+  .contact-info {
+    text-align: center;
+    
+    i {
+      margin: 25px 0px 10px 0px;
+    }
+  }
+  
+  h2.section-heading {
+    font-size: 3rem;
+    margin: 15px 0;
+  }
+  
+  hr.primary {
+    max-width: 50px;
+    border-color: #f05f40;
+    border-width: 3px;
+    margin: 25px auto;
+  }
+  
+  p {
+    font-size: 1rem;
+    
+    a {
+      color: #009afd;
+      
+      &:hover {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+  
+}

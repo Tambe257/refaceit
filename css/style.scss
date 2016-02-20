@@ -5,6 +5,10 @@ $highlight: #7ac483;
 $grey_background: #f2f1f8;
 $grey_copy: #b9b7c6;
 $dark_grey: #3C3C3E;
+$blue: #009afd;
+$black: #000000;
+
+$main-font: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 
 // - - - - - - - - - - Global Styles - - - - - - - - - //
 
@@ -14,6 +18,7 @@ $dark_grey: #3C3C3E;
 
 body {
   -webkit-font-smoothing: antialiased;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 @mixin breakpoint($class) {
   @if $class == xs {
@@ -121,9 +126,9 @@ body {
 
 @import "banner";
 @import "navbar";
-@import "content-1";
+@import "materials";
 @import "content-2";
-@import "content-3";
+@import "testimonials";
 @import "footer";
 @import "about";
-@import "testimonials";
+@import "contact";
