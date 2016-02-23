@@ -169,8 +169,8 @@ body {
       font-weight: 500; }
 
 #materials {
-  background: #3C3C3E;
-  padding: 2rem 0rem 6.0rem 0;
+  background: #FFFFFF;
+  padding: 0rem;
   text-align: center;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; }
   #materials .title-container {
@@ -262,6 +262,44 @@ body {
       font-size: 26px; }
     #materials .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
       font-size: 22px; } }
+  #materials .materials-image {
+    padding: 0px; }
+    #materials .materials-image img {
+      width: 100%; }
+  #materials .materials-info {
+    padding: 8% 5%; }
+    #materials .materials-info .btn {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      -o-appearance: none;
+      appearance: none;
+      border: none;
+      padding: .6em 1.2em;
+      background-color: #f42e4e;
+      color: #ffffff;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-family: "PT Sans", sans-serif;
+      font-size: 1.6rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 4px; }
+    #materials .materials-info h2 {
+      font-size: 2.4rem;
+      font-weight: bold; }
+    #materials .materials-info p {
+      max-width: 480px;
+      line-height: 1.6;
+      margin: 1em 0;
+      color: #666666; }
+  #materials .materials-title {
+    padding: 3rem 0rem;
+    background: #3C3C3E;
+    font-family: "PT Sans", sans-serif; }
+    #materials .materials-title h2 {
+      color: #FFFFFF;
+      font-size: 3rem; }
 
 #content-2 {
   background: white;

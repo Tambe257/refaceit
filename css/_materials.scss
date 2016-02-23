@@ -1,6 +1,6 @@
 #materials {
-  background: $dark_grey;
-  padding: 2rem 0rem 6.0rem 0;
+  background: $white;
+  padding: 0rem;
   text-align: center;
   font-family: $main-font;
   
@@ -137,5 +137,58 @@
         font-size: 22px;
     }
 }
+  
+  .materials-image {
+    padding: 0px;  
+    
+    img {
+      width: 100%;
+    }
+  }
+  
+  .materials-info {
+    padding: 8% 5%;
+    
+    .btn {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      -o-appearance: none;
+      appearance: none;
+      border: none;
+      padding: .6em 1.2em;
+      background-color: #f42e4e;
+      color: #ffffff;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-family: "PT Sans", sans-serif;
+      font-size: 1.6rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    
+    h2 {
+      font-size: 2.4rem;
+      font-weight: bold;
+    }
+    
+    p {
+      max-width: 480px;
+      line-height: 1.6;
+      margin: 1em 0;
+      color: #666666;
+    }
+  }
+  
+  .materials-title {
+    padding: 3rem 0rem;
+    background: $dark_grey;
+    font-family: "PT Sans", sans-serif;
+    
+    h2 {
+      color: $white;
+      font-size: 3rem;
+    }
+  }
 }
-
