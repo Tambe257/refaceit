@@ -40,7 +40,7 @@ body {
   margin: 30px 0; }
 
 #banner {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/sample-pic2.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/houses/stone1.jpg);
   background-size: cover;
   padding: 0px 0 110px 0;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; }
@@ -50,9 +50,10 @@ body {
   color: white; }
   .banner-content h1.banner-title {
     font-size: 4rem;
-    font-weight: 500; }
+    font-weight: 500;
+    margin-bottom: 10px; }
   .banner-content p.banner-subtitle {
-    font-size: 2.2rem; }
+    font-size: 2rem; }
   .banner-content a.btn {
     background: #6f5499;
     font-weight: 700;
@@ -167,101 +168,38 @@ body {
       font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
       text-transform: uppercase;
       font-weight: 500; }
+      .navbar ul.navbar-right li a:hover {
+        color: #cccccc; }
+    .navbar ul.navbar-right li a.sm-button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -ms-appearance: none;
+      -o-appearance: none;
+      appearance: none;
+      border: none;
+      padding: .3em 1.1em;
+      margin-top: 0.6rem;
+      background-color: #f42e4e;
+      color: #ffffff;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-family: "PT Sans", sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      -webkit-border-radius: 180px;
+      -moz-border-radius: 180px;
+      -ms-border-radius: 180px;
+      border-radius: 180px;
+      max-width: 135px; }
+      .navbar ul.navbar-right li a.sm-button:hover {
+        background-color: #dc2946; }
 
 #materials {
   background: #FFFFFF;
   padding: 0rem;
   text-align: center;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; }
-  #materials .title-container {
-    text-align: center; }
-  #materials .box-wrapper {
-    padding: 0 2%;
-    width: 100%;
-    float: left;
-    margin: -6rem 1% 0 1%; }
-    #materials .box-wrapper .title-box {
-      background: rgba(250, 250, 250, 0.8);
-      -webkit-border-radius: 0.35rem;
-      -moz-border-radius: 0.35rem;
-      -ms-border-radius: 0.35rem;
-      border-radius: 0.35rem;
-      padding: 2rem 1rem;
-      text-align: center;
-      position: relative;
-      -webkit-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
-      -moz-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
-      box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
-      margin-bottom: 20px; }
-      #materials .box-wrapper .title-box p {
-        color: #3C3C3E;
-        padding: 5px;
-        margin-bottom: 20px;
-        font-weight: 400; }
-      #materials .box-wrapper .title-box h2.title {
-        color: #3C3C3E;
-        font-weight: 700;
-        font-size: 1.75rem; }
-  #materials .box-padding {
-    padding: 1rem; }
-    #materials .box-padding .portfolio-box {
-      display: block;
-      position: relative;
-      margin: 0 auto;
-      max-width: 650px; }
-      #materials .box-padding .portfolio-box .box-title {
-        font-size: 2.5rem;
-        text-transform: uppercase;
-        text-align: center;
-        font-weight: 700;
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        transform: translateY(-50%); }
-      #materials .box-padding .portfolio-box .box-title-white {
-        color: #FFFFFF; }
-      #materials .box-padding .portfolio-box .box-title-black {
-        color: #000000; }
-  #materials .portfolio-box .portfolio-box-caption {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    color: #fff;
-    opacity: 0;
-    background: rgba(240, 95, 64, 0.9);
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s; }
-  #materials .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translateY(-50%); }
-  #materials .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-  #materials .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    padding: 0 15px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; }
-  #materials .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600; }
-  #materials .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 18px; }
-  #materials .portfolio-box:hover .box-title {
-    display: none; }
-  #materials .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1; }
-    #materials .portfolio-box:hover .portfolio-box-caption .box-title {
-      display: none; }
-  @media (min-width: 768px) {
-    #materials .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-      font-size: 26px; }
-    #materials .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-      font-size: 22px; } }
   #materials .materials-image {
     padding: 0px; }
     #materials .materials-image img {
@@ -275,7 +213,7 @@ body {
       -o-appearance: none;
       appearance: none;
       border: none;
-      padding: .6em 1.2em;
+      padding: .3em 1.1em;
       background-color: #f42e4e;
       color: #ffffff;
       -webkit-font-smoothing: antialiased;
@@ -285,6 +223,8 @@ body {
       font-weight: bold;
       cursor: pointer;
       border-radius: 4px; }
+      #materials .materials-info .btn:hover {
+        background-color: #dc2946; }
     #materials .materials-info h2 {
       font-size: 2.4rem;
       font-weight: bold; }
@@ -295,7 +235,7 @@ body {
       color: #666666; }
   #materials .materials-title {
     padding: 3rem 0rem;
-    background: #3C3C3E;
+    background: #2C343B;
     font-family: "PT Sans", sans-serif; }
     #materials .materials-title h2 {
       color: #FFFFFF;
@@ -320,9 +260,11 @@ body {
     text-align: center; }
     #testimonials .title-container h2.title {
       color: white;
-      margin: 0 0 30px 0;
+      margin: 0 0 20px 0;
       font-size: 2.5rem;
-      font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; }
+      font-family: "PT Sans", sans-serif; }
+    #testimonials .title-container hr {
+      max-width: 75%; }
 
 /* -------------------------------- 
 
@@ -734,6 +676,11 @@ footer {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
+    .footer-right .credit a {
+      color: #009afd; }
+      .footer-right .credit a:hover {
+        text-decoration: none;
+        color: inherit; }
 
 #about-section {
   text-align: center; }
@@ -745,7 +692,7 @@ footer {
   #about-section hr {
     border-color: #3C3C3E;
     max-width: 100%;
-    border-color: #f05f40;
+    border-color: #f42e4e;
     border-width: 3px; }
   #about-section img {
     -webkit-border-radius: 180px;
@@ -769,7 +716,7 @@ footer {
     margin: 15px 0; }
   #contact hr.primary {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: #f42e4e;
     border-width: 3px;
     margin: 25px auto; }
   #contact p {

@@ -17,6 +17,7 @@
   
   ul.navbar-right {
     padding-right: 20px;
+    
     li {
       
       a {
@@ -24,7 +25,36 @@
         font-family: $main-font;
         text-transform: uppercase;
         font-weight: 500;
+        
+        &:hover {
+          color: $white * 0.80;
+        }
+      }
+      
+      a.sm-button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+        border: none;
+        padding: .3em 1.1em;
+        margin-top: 0.6rem;
+        background-color: $button-color;
+        color: #ffffff;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: "PT Sans", sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        @include border-radius(180px);
+        max-width: 135px;
+
+        &:hover {
+          background-color: $button-color * .90;
+        }
       }
     }
-  }
-}
+  } // ul
+} //navbar

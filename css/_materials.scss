@@ -4,140 +4,6 @@
   text-align: center;
   font-family: $main-font;
   
-  .title-container {
-    text-align: center;
-  }
-  
-  .box-wrapper {
-    padding: 0 2%;
-    width: 100%;
-    float: left;
-    margin: -6rem 1% 0 1%;
-  
-    .title-box {
-      background: rgba(250, 250, 250, 0.8);
-      @include border-radius(.35rem);
-      padding: 2rem 1rem;
-      text-align: center;
-      position: relative;
-      -webkit-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
-      -moz-box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
-      box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.25);
-      margin-bottom: 20px;
-
-      p {
-        color: $dark_grey;
-        padding: 5px;
-        margin-bottom: 20px;
-        font-weight: 400;
-      }
-
-      h2.title {
-        color: $dark_grey;
-        font-weight: 700;
-        font-size: 1.75rem;
-      }
-    }
-  }
-
-// 
-  .box-padding {
-    padding: 1rem;
-  
-    .portfolio-box {
-      display: block;
-      position: relative;
-      margin: 0 auto;
-      max-width: 650px;
-
-      img {
-
-      }
-      
-      .box-title {
-        font-size: 2.5rem;
-        text-transform: uppercase;
-        text-align: center;
-        font-weight: 700;
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        transform: translateY(-50%);
-      }
-      
-      .box-title-white {
-        color: $white;
-      }
-      
-      .box-title-black {
-        color: $black;
-      }
-    }
-  }
-
-.portfolio-box .portfolio-box-caption {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    color: #fff;
-    opacity: 0;
-    background: rgba(240,95,64,.9);
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translateY(-50%);
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    padding: 0 15px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 18px;
-}
-
-.portfolio-box:hover {
-  .box-title {
-    display: none;
-  }
-}
-  
-.portfolio-box:hover .portfolio-box-caption {
-    opacity: 1;
-  
-  .box-title {
-    display: none;
-  }
-}
-
-@media(min-width:768px) {
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-        font-size: 26px;
-    }
-
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 22px;
-    }
-}
-  
   .materials-image {
     padding: 0px;  
     
@@ -156,8 +22,8 @@
       -o-appearance: none;
       appearance: none;
       border: none;
-      padding: .6em 1.2em;
-      background-color: #f42e4e;
+      padding: .3em 1.1em;
+      background-color: $button-color;
       color: #ffffff;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -166,6 +32,10 @@
       font-weight: bold;
       cursor: pointer;
       border-radius: 4px;
+      
+      &:hover {
+        background-color: $button-color * .90;
+      }
     }
     
     h2 {
@@ -183,7 +53,7 @@
   
   .materials-title {
     padding: 3rem 0rem;
-    background: $dark_grey;
+    background: $dark_blue;
     font-family: "PT Sans", sans-serif;
     
     h2 {

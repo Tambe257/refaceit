@@ -18,5 +18,14 @@ footer {
  
   .credit {
     @include vertical-align();
+    
+    a {
+      color: $blue;
+      
+      &:hover {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
   }
 }
