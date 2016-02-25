@@ -692,19 +692,27 @@ footer {
     color: #3C3C3E;
     font-weight: 700;
     margin: 20px 0px; }
-  #about-section hr {
-    border-color: #3C3C3E;
-    max-width: 100%;
-    border-color: #f42e4e;
-    border-width: 3px; }
-  #about-section img {
-    -webkit-border-radius: 180px;
-    -moz-border-radius: 180px;
-    -ms-border-radius: 180px;
-    border-radius: 180px;
-    margin: 30px 0px; }
-  #about-section p {
-    margin: 30px 0px; }
+  #about-section .about-avatar {
+    text-align: center; }
+    #about-section .about-avatar hr {
+      border-color: #3C3C3E;
+      width: 65%;
+      border-color: #f42e4e;
+      border-width: 3px; }
+    #about-section .about-avatar img {
+      -webkit-border-radius: 180px;
+      -moz-border-radius: 180px;
+      -ms-border-radius: 180px;
+      border-radius: 180px;
+      margin: 30px 0px; }
+    #about-section .about-avatar h3 {
+      font-size: 2rem; }
+    #about-section .about-avatar h4 {
+      font-size: 1.8rem;
+      margin-bottom: 40px; }
+  #about-section .about-text p {
+    margin: 30px 0px;
+    font-size: 1.5rem; }
 
 #contact {
   background: #FFFFFF;
