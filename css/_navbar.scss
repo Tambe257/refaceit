@@ -50,6 +50,10 @@
         cursor: pointer;
         @include border-radius(180px);
         max-width: 135px;
+        
+        @include breakpoint(sm) {
+          max-width: 175px;
+        }
 
         &:hover {
           background-color: $button-color * .90;
