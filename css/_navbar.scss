@@ -49,7 +49,8 @@
         font-weight: bold;
         cursor: pointer;
         @include border-radius(180px);
-        max-width: 135px;
+        max-width: 150px;
+        text-align: center;
         
         @include breakpoint(sm) {
           max-width: 175px;

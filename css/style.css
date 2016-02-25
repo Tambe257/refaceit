@@ -49,11 +49,23 @@ body {
   text-align: center;
   color: white; }
   .banner-content h1.banner-title {
-    font-size: 4rem;
+    font-size: 2.3rem;
     font-weight: 500;
     margin-bottom: 10px; }
+    @media (min-width: 768px) {
+      .banner-content h1.banner-title {
+        font-size: 3rem; } }
+    @media (min-width: 992px) {
+      .banner-content h1.banner-title {
+        font-size: 4rem; } }
   .banner-content p.banner-subtitle {
-    font-size: 2rem; }
+    font-size: 1.1rem; }
+    @media (min-width: 768px) {
+      .banner-content p.banner-subtitle {
+        font-size: 1.5rem; } }
+    @media (min-width: 992px) {
+      .banner-content p.banner-subtitle {
+        font-size: 2rem; } }
   .banner-content a.btn {
     background: #6f5499;
     font-weight: 700;
@@ -70,21 +82,42 @@ body {
     .banner-content a.btn:hover {
       background: rgba(111, 84, 153, 0.8); }
   .banner-content hr {
-    width: 60%; }
+    width: 90%; }
+    @media (min-width: 768px) {
+      .banner-content hr {
+        width: 80%; } }
+    @media (min-width: 992px) {
+      .banner-content hr {
+        width: 60%; } }
 
 .slogan {
   margin-top: 50px;
-  text-align: center; }
+  text-align: center;
+  padding: 0 1%; }
   .slogan h2 {
     font-family: "Georgia", serif;
     color: #FFFFFF;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     margin-top: 25px; }
   .slogan p {
     font-family: "Georgia", serif;
     color: #FFFFFF;
-    font-size: 2rem;
-    margin: 75px 0px; }
+    font-size: 1.8rem;
+    margin: 75px 0px 50px 0px; }
+  @media (min-width: 768px) {
+    .slogan h2 {
+      font-size: 2.3rem;
+      margin-top: 25px; }
+    .slogan p {
+      font-size: 2rem;
+      margin: 75px 0px; } }
+  @media (min-width: 992px) {
+    .slogan h2 {
+      font-size: 2.5rem;
+      margin-top: 25px; }
+    .slogan p {
+      font-size: 2rem;
+      margin: 75px 0px 50px 0px; } }
 
 .banner-arrows {
   text-align: center; }
@@ -191,7 +224,8 @@ body {
       -moz-border-radius: 180px;
       -ms-border-radius: 180px;
       border-radius: 180px;
-      max-width: 135px; }
+      max-width: 150px;
+      text-align: center; }
       @media (min-width: 768px) {
         .navbar ul.navbar-right li a.sm-button {
           max-width: 175px; } }
@@ -234,7 +268,7 @@ body {
     #materials .materials-info p {
       max-width: 480px;
       line-height: 1.6;
-      margin: 1em 0;
+      margin: 1em auto;
       color: #666666; }
   #materials .materials-title {
     padding: 3rem 0rem;
@@ -242,7 +276,10 @@ body {
     font-family: "PT Sans", sans-serif; }
     #materials .materials-title h2 {
       color: #FFFFFF;
-      font-size: 3rem; }
+      font-size: 2rem; }
+      @media (min-width: 992px) {
+        #materials .materials-title h2 {
+          font-size: 3rem; } }
 
 #content-2 {
   background: white;
@@ -264,8 +301,14 @@ body {
     #testimonials .title-container h2.title {
       color: white;
       margin: 0 0 20px 0;
-      font-size: 2.5rem;
+      font-size: 1.5rem;
       font-family: "PT Sans", sans-serif; }
+      @media (min-width: 768px) {
+        #testimonials .title-container h2.title {
+          font-size: 2.0rem; } }
+      @media (min-width: 992px) {
+        #testimonials .title-container h2.title {
+          font-size: 2.5rem; } }
     #testimonials .title-container hr {
       max-width: 75%; }
 
@@ -706,13 +749,22 @@ footer {
       border-radius: 180px;
       margin: 30px 0px; }
     #about-section .about-avatar h3 {
-      font-size: 2rem; }
+      font-size: 2rem;
+      line-height: 3rem; }
     #about-section .about-avatar h4 {
       font-size: 1.8rem;
-      margin-bottom: 40px; }
-  #about-section .about-text p {
-    margin: 30px 0px;
-    font-size: 1.5rem; }
+      margin-bottom: 40px;
+      line-height: 2.5rem; }
+  #about-section .about-text {
+    padding: 10% 6%; }
+    @media (min-width: 768px) {
+      #about-section .about-text {
+        padding: 8% 0%; } }
+    @media (min-width: 992px) {
+      #about-section .about-text {
+        padding: 14% 0%; } }
+    #about-section .about-text p {
+      font-size: 1.5rem; }
 
 #contact {
   background: #FFFFFF;

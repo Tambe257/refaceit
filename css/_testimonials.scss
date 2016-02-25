@@ -8,8 +8,16 @@
     h2.title {
       color: white;
       margin: 0 0 20px 0;
-      font-size: 2.5rem;
+      font-size: 1.5rem;
       font-family: $second-font;
+      
+      @include breakpoint(sm) {
+        font-size: 2.0rem;
+      }
+      
+      @include breakpoint(md) {
+        font-size: 2.5rem;
+      }
     }
     
     hr {

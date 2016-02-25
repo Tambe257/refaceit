@@ -46,7 +46,7 @@
     p {
       max-width: 480px;
       line-height: 1.6;
-      margin: 1em 0;
+      margin: 1em auto;
       color: #666666;
     }
   }
@@ -58,7 +58,11 @@
     
     h2 {
       color: $white;
-      font-size: 3rem;
+      font-size: 2rem;
+      
+      @include breakpoint(md) {
+        font-size: 3rem;
+      }
     }
   }
 }
