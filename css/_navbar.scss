@@ -64,6 +64,10 @@
   } // ul
 } //navbar
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ddd;
+}
+
 .navbar-gallery {
   background: $dark_grey;
   @include border-radius(0);

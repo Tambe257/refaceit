@@ -1,8 +1,14 @@
 #banner {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/houses/banner-pic.jpg);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/houses/banner-pic-med.jpg) no-repeat;
   background-size: cover;
-  padding: 0px 0 110px 0;
+  padding: 0px 0 50px 0;
   font-family: $main-font;
+  
+  @include breakpoint(sm) {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/houses/banner-pic.jpg) no-repeat;
+    background-size: cover;
+    padding: 0px 0 110px 0;
+  }
 }
 
 .banner-content {
@@ -10,7 +16,7 @@
   color: white;
   
   h1.banner-title {
-    font-size: 2.3rem;
+    font-size: 2.0rem;
     font-weight: 500;
     margin-bottom: 10px;
     
@@ -24,7 +30,7 @@
   }
   
   p.banner-subtitle {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     
     @include breakpoint(sm) {
       font-size: 1.5rem;
@@ -72,15 +78,23 @@
   h2 {
     font-family: "Georgia", serif;
     color: $white;
-    font-size: 1.8rem;
-    margin-top: 25px;
+    font-size: 1.6rem;
+    margin-top: 0px;
+    
+    @include breakpoint(sm) {
+      margin-top: 25px;
+    }
   }
   
   p {
     font-family: "Georgia", serif;
     color: $white;
-    font-size: 1.8rem;
-    margin: 75px 0px 50px 0px;
+    font-size: 1.6rem;
+    margin: 20px 0px 20px 0px;
+    
+    @include breakpoint(sm) {
+      margin: 75px 0px 50px 0px;
+    }
   }
   
   @include breakpoint(sm) {
@@ -113,18 +127,22 @@
 }
 
 .btn-circle {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
+  margin-top: 25px;
+  padding: 7px 16px;
+  border: 2px solid #fff;
+  border-radius: 100%!important;
+  font-size: 40px;
+  color: #fff;
+  background: 0 0;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+  
+  @include breakpoint(sm) {
     margin-top: 75px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 100%!important;
-    font-size: 40px;
-    color: #fff;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+  }
 }
 
 .btn-circle:hover,
