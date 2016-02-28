@@ -63,3 +63,25 @@
     }
   } // ul
 } //navbar
+
+.navbar-gallery {
+  background: $dark_grey;
+  @include border-radius(0);
+  
+
+  .navbar-header {
+    a.navbar-brand-gallery {
+      color: #FFFFFF;
+      font-weight: 500;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      float: left;
+      padding: 15px 15px;
+      
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+}

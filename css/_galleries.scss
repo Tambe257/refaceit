@@ -1,0 +1,63 @@
+.gallery-container {
+  text-align: center; 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 1%;
+}
+
+.gallery-title {
+    text-align: center;
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  hr {
+    border: 1px solid $dark_grey;
+    width: 70%;
+    margin-bottom: 35px;
+  }
+  
+  @include breakpoint(sm) {
+    h1 {
+    font-size: 2.5rem;
+    }
+
+    hr {
+
+    }
+  }
+  
+  @include breakpoint(md) {
+    h1 {
+    font-size: 3rem;
+    }
+
+    hr {
+      width: 70%;
+    }
+  }
+}
+
+.image-box { 
+  float: left;
+  width: 96%; 
+  padding: 1%;
+  border: 1px solid $white;
+  margin: 2%;
+  background: $white;
+  
+  img {
+    @include box-shadow(0px, 0px, 6px, $dark_grey);
+  }
+  
+  @include breakpoint(sm) {
+    width: 48%;
+    margin: 1%;
+  }
+  
+  @include breakpoint(md) {
+    width: 30%; 
+  }
+}
+
