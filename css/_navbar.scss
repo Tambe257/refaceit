@@ -29,6 +29,10 @@
         &:hover {
           color: $white * 0.80;
         }
+        
+        &:visited {
+          color: $white;
+        }
       }
       
       a.sm-button {
@@ -61,13 +65,44 @@
         }
       }
     }
+    
+    li.dropdown {
+      background: transparent;
+    }
   } // ul
 } //navbar
+
+// dropdown
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color: transparent;
+  color: $white;
+}
+
+.dropdown-menu {
+  background-color: $white;
+  padding: 0;
+}
+
+.navbar ul.navbar-right li.dropdown ul.dropdown-menu li a {
+  color: $dark_grey;
+  
+  &:visited {
+    color: $dark_grey;
+  }
+  
+  &:hover {
+    background-color: $white * .80;
+  }
+}
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ddd;
 }
 
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
 .navbar-gallery {
   background: $dark_grey;
   @include border-radius(0);
@@ -87,5 +122,23 @@
       }
     }
   }
+  
+  .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: $dark_grey;
+    color: $white;
+  }
 
+  .dropdown-menu {
+    background-color: $dark_grey;
+    padding: 0;
+  }
+
+}
+
+.gallery .navbar ul.navbar-right li.dropdown ul.dropdown-menu li a{
+  color: $white;
+  
+  &:hover {
+    color: $dark_grey;
+  }
 }
