@@ -259,11 +259,12 @@ body {
   padding: 0; }
 
 .navbar ul.navbar-right li.dropdown ul.dropdown-menu li a {
-  color: #3C3C3E; }
+  color: #FFFFFF; }
   .navbar ul.navbar-right li.dropdown ul.dropdown-menu li a:visited {
-    color: #3C3C3E; }
+    color: #FFFFFF; }
   .navbar ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
-    background-color: #cccccc; }
+    background-color: #cccccc;
+    color: #3C3C3E; }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ddd; }
@@ -295,8 +296,10 @@ body {
 
 .gallery .navbar ul.navbar-right li.dropdown ul.dropdown-menu li a {
   color: #FFFFFF; }
+  .gallery .navbar ul.navbar-right li.dropdown ul.dropdown-menu li a:visited {
+    color: #FFFFFF; }
   .gallery .navbar ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
-    color: #3C3C3E; }
+    color: #303032; }
 
 #materials {
   background: #FFFFFF;

@@ -85,14 +85,15 @@
 }
 
 .navbar ul.navbar-right li.dropdown ul.dropdown-menu li a {
-  color: $dark_grey;
+  color: $white;
   
   &:visited {
-    color: $dark_grey;
+    color: $white;
   }
   
   &:hover {
     background-color: $white * .80;
+    color: $dark_grey;
   }
 }
 
@@ -138,7 +139,11 @@
 .gallery .navbar ul.navbar-right li.dropdown ul.dropdown-menu li a{
   color: $white;
   
+  &:visited {
+    color: $white;
+  }
+  
   &:hover {
-    color: $dark_grey;
+    color: $dark_grey * .80;
   }
 }
